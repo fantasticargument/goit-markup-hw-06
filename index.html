@@ -493,8 +493,23 @@
                     
                 </ul>
             </div>
-        </div>  
 
+            <form class="footer-form">
+
+                <label>
+                    <span class="footer-form-title">Подпишитесь на рассылку</span>
+                    <input type="email" class="footer-form-meil" name="email" placeholder="E-mail">
+                </label>
+
+                <button type="submit" class="footer-form-submit">Подписаться
+                    <svg class="footer-form-submit-icon">
+                        <use href="./images/Іконки/symbol-defs.svg#icon-send"></use>
+                    </svg>
+                </button>
+    
+            </form>
+    
+        </div>  
     </footer>
     <!--Модалка-->
     <div class="backdrop is-hidden" data-modal>
@@ -504,6 +519,41 @@
                     <use href="./images/Іконки/symbol-defs.svg#icon-Vector"></use>
                 </svg>
             </button>
+
+            <b class="form-caption">Оставьте свои данные, мы вам перезвоним</b>
+           
+            <label class="form-field">
+                <div class="foter-social-networks-item">
+                    <svg class="foter-social-networks-icon">
+                        <use href="./images/Іконки/symbol-defs.svg#icon-name"></use>
+                    </svg>
+                </div>
+                <span class="form-label">Имя</span>
+                <input type="text" class="form-input" name="name" placeholder="Иван Иванович">
+            </label>
+
+            <label class="form-field">
+                <span class="form-label">Телефон</span>
+                <input type="tel" class="form-input" name="phone_number" placeholder="Иван Иванович">
+            </label>
+              
+            <label class="form-field">
+                <span class="form-label">Почта</span>
+                <input type="email" class="form-input" name="mail" placeholder="ivan@mail.com" required>
+            </label>
+              
+            <label class="form-field">
+                <span class="form-label">Комментарий</span>
+                <textarea name="feedback" class="form-input" rows="5" placeholder="Type your message here..."></textarea>
+            </label>
+
+            <div class="form-field">
+                <input type="checkbox" class="checkbox-form-input" name="hobby" value="sports" id="sports">
+                <label class="checkbox-form-label" for="sports">Спорт</label>
+            </div>
+
+            <button type="submit">Отправить</button>
+              
         </div>
     </div>
 

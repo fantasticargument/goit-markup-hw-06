@@ -523,37 +523,50 @@
 
             <b class="form-caption">Оставьте свои данные, мы вам перезвоним</b>
            
-            <label class="form-field">
-                <div class="foter-social-networks-item">
-                    <svg class="foter-social-networks-icon">
-                        <use href="./images/Іконки/symbol-defs.svg#icon-name"></use>
-                    </svg>
-                </div>
-                <span class="form-label">Имя</span>
-                <input type="text" class="form-input" name="name" placeholder="Иван Иванович">
-            </label>
+           <form action="#" class="modal-form">
 
-            <label class="form-field">
-                <span class="form-label">Телефон</span>
-                <input type="tel" class="form-input" name="phone_number" placeholder="Иван Иванович">
-            </label>
-              
-            <label class="form-field">
-                <span class="form-label">Почта</span>
-                <input type="email" class="form-input" name="mail" placeholder="ivan@mail.com" required>
-            </label>
-              
-            <label class="form-field">
-                <span class="form-label">Комментарий</span>
-                <textarea name="feedback" class="form-input" rows="5" placeholder="Type your message here..."></textarea>
-            </label>
-
-            <div class="form-field">
-                <input type="checkbox" class="checkbox-form-input" name="hobby" value="sports" id="sports">
-                <label class="checkbox-form-label" for="sports">Спорт</label>
-            </div>
-
-            <button type="submit">Отправить</button>
+                <label class="form-field">
+                    <p class="form-label">Имя</p>
+                    <span class="form-item">
+                        <input type="text" class="form-input" name="name" placeholder="" required>
+                        <svg class="form-item-icon">
+                            <use href="./images/Іконки/symbol-defs.svg#icon-name"></use>
+                        </svg>
+                    </span>
+                </label>
+                
+                <label class="form-field">
+                    <p class="form-label">Телефон</p> 
+                    <span class="form-item">
+                        <input type="tel" class="form-input" name="phone_number" placeholder="" required>
+                        <svg class="form-item-icon">
+                            <use href="./images/Іконки/symbol-defs.svg#icon-phone"></use>
+                        </svg>
+                    </span>
+                </label>
+                
+                <label class="form-field">
+                    <p class="form-label">Почта</p>
+                    <span class="form-item">
+                        <input type="email" class="form-input" name="mail" placeholder="" required>
+                        <svg class="form-item-icon">
+                            <use href="./images/Іконки/symbol-defs.svg#icon-mail"></use>
+                        </svg>
+                    </span>
+                </label>
+                
+                <label class="form-field">
+                    <span class="form-label">Комментарий</span>
+                    <textarea name="feedback" class="form-input feedback" rows="5" placeholder="Введите текст"></textarea>
+                </label>
+                
+               
+                    <input type="checkbox" class="checkbox-form-input visually-hidden" name="user-polisy" value="on" id="check" required>
+                    <label class="checkbox-form-label" for="check"><span>Соглашаюсь с рассылкой и принимаюv</span> <a href="">Условия договора</a></label>
+               
+                
+                <button type="submit" class="submit-button">Отправить</button>
+           </form>
               
         </div>
     </div>

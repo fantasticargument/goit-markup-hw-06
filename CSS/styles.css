@@ -818,12 +818,6 @@ button {
   fill: var(--accent-color);
 }
 
-.footer-form {
-  display: flex;
-  margin-left: auto;
-  margin-top: 12px;
-}
-
 .feedback {
   resize: none;
   height: 120px;
@@ -832,21 +826,11 @@ button {
   font-size: 12px;
   line-height: 1.16667;
   letter-spacing: 0.01em;
+  color: var(--primary-text-color);
 }
 
 .feedback ::placeholder {
-  color: rgba(117, 117, 117, 0.5);
-}
-
-.footer-form-title {
-  margin-bottom: 20px;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--white-color);
-  border-radius: 4px;
+  resize: none;
 }
 
 label {
@@ -936,6 +920,23 @@ label {
   border-radius: 4px;
   margin-top: 36px;
   padding: 10px;
+}
+
+.footer-form-title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  border-radius: 4px;
+}
+
+.footer-form {
+  display: flex;
+  margin-left: auto;
+  margin-top: 12px;
 }
 
 .footer-form-submit-icon {

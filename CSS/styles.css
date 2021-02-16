@@ -833,6 +833,10 @@ button {
   resize: none;
 }
 
+.form-input::placeholder{
+  color: rgba(117, 117, 117, 0.5);
+}
+
 label {
   display: flex;
   flex-direction: column;

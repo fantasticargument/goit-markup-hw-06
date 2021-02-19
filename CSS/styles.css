@@ -828,18 +828,14 @@ button {
   font-size: 12px;
   line-height: 1.16667;
   letter-spacing: 0.01em;
-<<<<<<< HEAD
   margin-bottom: 20px;
-=======
-  color: var(--primary-text-color);
->>>>>>> e0504f92165911b2736246077fd38616b551c8fe
 }
 
 .feedback ::placeholder {
   resize: none;
 }
 
-.form-input::placeholder{
+.form-input::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
 

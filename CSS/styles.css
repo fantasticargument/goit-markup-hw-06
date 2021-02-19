@@ -53,7 +53,6 @@ img {
 }
 
 button {
-  padding: 0;
   border: 0;
 }
 
@@ -714,7 +713,7 @@ button {
   left: 50%;
 
   width: 528px;
-  height: 581px;
+  min-height: 581px;
 
   background-color: var(--white-color);
 
@@ -770,7 +769,7 @@ button {
 }
 
 .form-field {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .form-label {
@@ -778,7 +777,7 @@ button {
   margin-bottom: 4px;
   font-weight: normal;
   font-size: 12px;
-  line-height: 1.667;
+  line-height: 1.1667;
   letter-spacing: 0.01em;
   color: var(--accent-text-color);
 }
@@ -786,6 +785,7 @@ button {
 .form-item {
   position: relative;
   display: flex;
+  margin-bottom: 10px;
 }
 
 .form-item-icon {
@@ -800,8 +800,10 @@ button {
 
 .form-input {
   width: 448px;
+  height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   padding: 8px;
+
   border-radius: 4px;
   padding-left: 42px;
   font-size: 16px;
@@ -832,6 +834,7 @@ button {
   font-size: 12px;
   line-height: 1.16667;
   letter-spacing: 0.01em;
+  margin-bottom: 20px;
 }
 
 .feedback ::placeholder {
@@ -849,22 +852,22 @@ button {
   border-radius: 4px;
 }
 
-label {
+label .footer-form-title {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
 }
 
 .checkbox-form-label {
   display: block;
+  margin-bottom: 30px;
 }
 
 .checkbox-form-label::before {
   display: inline-block;
   width: 16px;
   height: 15px;
-  outline: 2px solid #212121;
-
+  border: 2px solid #212121;
+  border-radius: 1px;
   content: '';
   margin-right: 10px;
   vertical-align: middle;
@@ -879,7 +882,7 @@ label {
   background-image: url(../images/галочка/Vector.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  outline: var(--accent-color);
+  border: var(--accent-color);
   border-radius: 2px;
 }
 
@@ -890,7 +893,7 @@ label {
 .modal-check-contract {
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.714;
+  line-height: 0.583;
   letter-spacing: 0.03em;
 
   color: var(--accent-text-color);
@@ -898,6 +901,7 @@ label {
 
 .form-contract {
   color: var(--accent-color);
+  text-decoration: underline;
 }
 
 .submit-button {

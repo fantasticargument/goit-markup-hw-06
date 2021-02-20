@@ -846,6 +846,7 @@ label .footer-form-title {
 
 .checkbox-form-label {
   display: block;
+  text-align: center;
   margin-bottom: 30px;
 }
 
@@ -878,6 +879,7 @@ label .footer-form-title {
 }
 
 .modal-check-contract {
+  
   font-weight: normal;
   font-size: 14px;
   line-height: 0.583;
